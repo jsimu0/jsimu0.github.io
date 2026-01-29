@@ -1,194 +1,375 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jacob - Software Engineer specializing in cloud services, microservices, and full-stack development">
+  <meta name="theme-color" content="#18181b">
+  <title>Jacob | Software Engineer</title>
 
-<html>
-	<head>
-		<title>jsimu0 - Home</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">About me</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Contact me</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">&lt;jsimu0 /&gt;</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="text-accent">Jacob</span></h1>
+          <p class="hero-subtitle">Software Engineer</p>
+          <p class="hero-description">
+            Results-driven engineer building scalable cloud services and modern web applications. Currently working with the State of California and taking on freelance projects.
+          </p>
+          <div class="hero-cta">
+            <a href="Documents/resume.pdf" class="btn btn-primary" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Get In Touch
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Hi, my name is Jacob</h1>
-							<p>I'm a highly-motivated and results-driven individual in the Northern California area looking to fill a software developer internship</a>.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">About me</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>About Me</h2>
+          <p>Building efficient solutions and learning new skills every day</p>
+        </div>
+        <div class="about-content animate-on-scroll">
+          <div class="about-text">
+            <p>
+              I'm a Software Engineer with a passion for building scalable cloud infrastructure and modern web applications. With experience spanning from mainframe migrations to serverless architectures, I enjoy tackling complex technical challenges and delivering production-ready solutions.
+            </p>
+            <p>
+              My work focuses on designing RESTful microservices, building event-driven data workflows, and implementing secure authentication systems. I thrive in Agile environments where collaboration and continuous improvement drive success.
+            </p>
+            <div class="cert-badge">
+              <img src="images/awslogo.png" alt="AWS Logo">
+              <div class="cert-badge-text">
+                <span class="cert-badge-title">AWS Certified Developer - Associate</span>
+                <span class="cert-badge-subtitle">DVA-C02</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/educationstockphoto.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Education</h2>
-									<p>I am currently a student pursuing a bachelor's degree in Computer Science.</p>
-									<ul class="actions">
-										<li><a href="education.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/experiencestockphoto.png" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Work experience</h2>
-									<p></p>
-									<ul class="actions">
-										<li><a href="experience.html" class="button">View my resume</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/programmingstockphoto.jpeg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Projects</h2>
-									<p></p>
-									<ul class="actions">
-										<li><a href="https://github.com/jsimu0/" target="_blank" rel="noopener noreferrer" class="button">View my GitHub</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Experience</h2>
+          <p>My professional journey in software engineering</p>
+        </div>
+        <div class="timeline">
+          <!-- DMV -->
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Software Engineer</h3>
+                  <span class="timeline-company">California DMV</span>
+                </div>
+                <span class="timeline-date">April 2023 - Present</span>
+              </div>
+              <ul class="timeline-description">
+                <li>Designed and deployed RESTful microservices using Golang, Node.js, and Python across AWS & Azure, focusing on performance and security</li>
+                <li>Built event-driven data workflows for high-volume database synchronizations using Lambda & Glue</li>
+                <li>Modernized legacy z/OS mainframe databases by migrating datasets into AWS RDS PostgreSQL, enhancing reliability and accessibility</li>
+                <li>Implemented enterprise-grade authentication using Azure OAuth 2.0, SAML, and IAM-based role policies for secure service-to-service communication</li>
+                <li>Developed CI/CD pipelines on GitHub Actions with Terraform & AWS CloudFormation to automate deployments across three environments</li>
+                <li>Collaborated in an Agile environment, participating in sprint planning, code reviews, and technical design discussions</li>
+                <li>Designed user-focused forms and streamlined service workflows using Salesforce</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">Golang</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Python</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Azure</span>
+                <span class="tag">Terraform</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Skills</h2>
-							<div class="features">
-								<section>
-									<img class="icon solid major" src="images/htmllogo.png"></img>
-									<h3>HTML5</h3>
-									<p>Continuously worked with HTML5, as it is the standard markup language used for structuring content on the web.</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/csslogo.png"></img>
-									<h3>CSS</h3>
-									<p>Used CSS to create more elegant and classy websites.</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/jslogo.png"></img>
-									<h3>JavaScript</h3>
-									<p>Used JavaScript to create vibrant and responsive websites, including this one!</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/ooplogo.png"></img>
-									<h3>Object-Oriented Programming</h3>
-									<p>Familiar with several object-oriented programming languages in various IDEs, including Java, Python, C, and C#</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/dotnetlogo.png"></img>
-									<h3>.NET Development</h3>
-									<p>Collaboratively developed applications in .NET using Windows Forms and ASP.NET web applications</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/gitlogo.png"></img>
-									<h3>Git</h3>
-									<p>Git and GitHub are always used for both my personal and work projects.</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/awslogo.png"></img>
-									<h3>AWS</h3>
-									<p>Familiar with AWS; experience includes on-premise server migration to cloud, and file server implementations using FSx</p>
-								</section>
-								<section>
-									<img class="icon solid major" src="images/sqllogo.png"></img>
-									<h3>SQL</h3>
-									<p>Experience using both MySQL Server and Microsoft SQL Server 2019.</p>
-								</section>
-							</div>
-						</div>
-					</section>
+          <!-- State Parks -->
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Software Engineer Intern</h3>
+                  <span class="timeline-company">California State Parks</span>
+                </div>
+                <span class="timeline-date">Sept 2021 - April 2023</span>
+              </div>
+              <ul class="timeline-description">
+                <li>Maintained and enhanced ASP.NET MVC web applications using C# in Visual Studio 2022, supporting financial and administrative workflows</li>
+                <li>Managed full development lifecycle using Azure DevOps, including Git version control, sprint planning, and CI/CD pipeline configuration</li>
+                <li>Built automated ETL processes to extract and transform financial data for reporting</li>
+                <li>Supported database administration tasks including SQL queries, performance optimization, and schema design</li>
+                <li>Collaborated with developers and business stakeholders to implement new features and deploy applications</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">C#</span>
+                <span class="tag">ASP.NET MVC</span>
+                <span class="tag">Azure DevOps</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">ETL</span>
+              </div>
+            </div>
+          </div>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Contact me</h2>
-							<p>I can be reached via any of the below methods. My preferred type of communication is email.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="mailto:asjacob0013@gmail.com?subject=Contact from Website" class="button submit">Send Email</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Email</h3>
-											<a href="#">asjacob0013@gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+          <!-- CMI -->
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Associate Systems Administrator</h3>
+                  <span class="timeline-company">CMI Technology Group</span>
+                </div>
+                <span class="timeline-date">Aug 2016 - Sept 2021</span>
+              </div>
+              <ul class="timeline-description">
+                <li>Configured and supported IT infrastructure for local businesses throughout the Central Valley</li>
+                <li>Gained introductory web developer experience</li>
+              </ul>
+              <div class="timeline-tags">
+                <span class="tag">IT Infrastructure</span>
+                <span class="tag">Web Development</span>
+                <span class="tag">Technical Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			</div>
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Education</h2>
+          <p>Academic foundation in computer science</p>
+        </div>
+        <div class="education-card animate-on-scroll">
+          <div class="education-header">
+            <div>
+              <h3 class="education-degree">Bachelor of Science in Computer Science</h3>
+              <span class="education-school">Sacramento State University</span>
+            </div>
+            <div class="education-meta">
+              <div class="education-date">Fall 2021 - Spring 2025</div>
+              <div class="education-gpa">3.3 GPA</div>
+            </div>
+          </div>
+          <div class="education-project">
+            <h4>Senior Project</h4>
+            <p>Built and deployed a full-stack Next.js web application on Vercel for a medical recruiting platform, emphasizing data security and responsive UI design.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; jjsimu. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Technical Skills</h2>
+          <p>Technologies and tools I work with</p>
+        </div>
+        <div class="skills-grid stagger-children">
+          <!-- Languages -->
+          <div class="skill-category animate-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">Java</span>
+              <span class="skill-item">C/C++</span>
+              <span class="skill-item">Go</span>
+              <span class="skill-item">Python</span>
+              <span class="skill-item">C#</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">TypeScript</span>
+              <span class="skill-item">SQL</span>
+            </div>
+          </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+          <!-- Cloud & DevOps -->
+          <div class="skill-category animate-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </div>
+              <h3>Cloud & DevOps</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Azure</span>
+              <span class="skill-item">Terraform</span>
+              <span class="skill-item">GitHub Actions</span>
+              <span class="skill-item">Azure DevOps</span>
+              <span class="skill-item">CloudFormation</span>
+              <span class="skill-item">Lambda</span>
+              <span class="skill-item">Glue</span>
+            </div>
+          </div>
 
-	</body>
+          <!-- Frameworks & Tools -->
+          <div class="skill-category animate-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+              </div>
+              <h3>Frameworks & Tools</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">.NET</span>
+              <span class="skill-item">Next.js</span>
+              <span class="skill-item">React</span>
+              <span class="skill-item">ASP.NET MVC</span>
+              <span class="skill-item">Node.js</span>
+              <span class="skill-item">Git</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category animate-on-scroll">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">PostgreSQL</span>
+              <span class="skill-item">DynamoDB</span>
+              <span class="skill-item">MongoDB</span>
+              <span class="skill-item">IBM DB2</span>
+              <span class="skill-item">SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Projects</h2>
+          <p>Featured work and personal projects</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card animate-on-scroll">
+            <h3>Medical Recruiting Platform</h3>
+            <p>Full-stack web application for a medical recruiting platform, featuring secure data handling, responsive design, and modern user experience.</p>
+            <div class="project-tech">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">TypeScript</span>
+            </div>
+            <div class="project-links">
+              <span class="text-muted">Senior Project - Sacramento State</span>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll">
+            <h3>More Projects</h3>
+            <p>Check out my GitHub profile for more projects including personal experiments, open source contributions, and coding challenges.</p>
+            <div class="project-links">
+              <a href="https://github.com/jsimu0" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                View GitHub Profile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-content animate-on-scroll">
+          <h2>Let's Connect</h2>
+          <p>I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology.</p>
+          <div class="contact-links">
+            <a href="mailto:asjacob0013@gmail.com" class="contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email</span>
+            </a>
+            <a href="https://github.com/jsimu0" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-copyright">&copy; 2025 Jacob. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://github.com/jsimu0" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
 </html>
